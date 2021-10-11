@@ -26,5 +26,5 @@
 
 ### High
 
-- ncludes everything in the `School` class, plus one additional property
+- Includes everything in the `School` class, plus one additional property
 - **Properties**: `sportsTeams` (array of strings)
