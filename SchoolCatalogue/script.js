@@ -36,3 +36,29 @@ class School {
     return substituteTeachers[ranNum];
   }
 }
+
+class PrimarySchool extends School {
+  constructor(name, numberOfStudents, pickupPolicy) {
+    super(name, 'primary', numberOfStudents);
+    this._pickupPolicy = pickupPolicy;
+  }
+
+  get pickupPolicy() {
+    return this._pickupPolicy;
+  }
+
+  set pickupPolicy(value) {
+    this._pickupPolicy = value;
+  }
+}
+
+class HighSchool extends School {
+  constructor(name, numberOfStudents, sportsTeams) {
+    super(name, 'high', numberOfStudents);
+    this._sportsTeams = sportsTeams;
+  }
+
+  get sportsTeams() {
+    return this._sportsTeams;
+  }
+}
