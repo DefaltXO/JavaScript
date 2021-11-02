@@ -1,0 +1,17 @@
+{
+  "name": "roosterregulation",
+  "version": "1.0.0",
+  "description": "TDD Project Via Codecademy",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "mocha": "^9.1.3"
+  }
+}
